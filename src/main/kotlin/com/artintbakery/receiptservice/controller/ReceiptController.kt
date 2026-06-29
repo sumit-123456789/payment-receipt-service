@@ -17,7 +17,7 @@ class ReceiptController(
 
         return ReceiptResponse(
             receiptId = receipt.receiptId,
-            receiptUrl = "http://localhost:8080/r/${receipt.receiptId}"
+            receiptUrl = "http://192.168.2.64:8080/r/${receipt.receiptId}"
         )
     }
 
